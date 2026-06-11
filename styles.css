@@ -7,6 +7,15 @@ body {
     font-size:30px;
 }
 
+#son {
+    position:absolute;
+    top:20px;
+    left:20px;
+    height:45px;
+    width:45px;
+    font-size:25px;
+}
+
 .chronometre {
     position: relative;
     height:500px;
