@@ -1,0 +1,38 @@
+body {
+    height:100vh;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    font-size:30px;
+}
+
+.chronometre {
+    position: relative;
+    height:500px;
+    width:500px;
+}
+
+.time-display {
+    display: flex;
+    position: absolute;
+    height:50px;
+    font-size:30px;
+    top:50%;
+    left:50%;
+    transform:translateX(-50%) translateY(-50%);
+    justify-content:center;
+}
+
+svg {
+    height:100%;
+    width:100%;
+}
+
+circle {
+    fill: none;
+    stroke: orange;
+    stroke-width:12px;
+    transform: rotate(-90deg);
+    transform-origin:center;
+}
