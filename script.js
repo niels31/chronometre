@@ -1,6 +1,6 @@
 //  temps en secondes, la seconde étant l'unité de rafraichissement
-const progressTime=5;
-const pauseTime=3;
+const progressTime=20*60;
+const pauseTime=1.5*60;
 
 const circle=document.getElementsByTagName("circle")[0];
 const timeDisplay=document.getElementsByClassName("time-display")[0];
